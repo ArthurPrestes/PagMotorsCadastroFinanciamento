@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,256 +8,260 @@
     <!-- Adicione os links para os arquivos CSS do Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
+
 <body>
 
-<div class="container">
-    <h2>Formulário</h2>
-    <form action="#" method="post">
+    <div class="container">
+        <h2>Formulário</h2>
+        <form action="https://api.sheetmonkey.io/form/n64myLWr4HkTf639vTMDx3" method="post">
 
-        <!-- Pessoa Física/Jurídica -->
-        <div class="form-group">
-            <label for="tipoPessoa">Pessoa Física/Jurídica:</label>
-            <select class="form-control" id="tipoPessoa" name="tipoPessoa">
-                <option value="pessoaFisica">Pessoa Física</option>
-                <option value="pessoaJuridica">Pessoa Jurídica</option>
-            </select>
-        </div>
+            <!-- Pessoa Física/Jurídica -->
+            <div class="form-group">
+                <label for="tipoPessoa">Pessoa Física/Jurídica:</label>
+                <select class="form-control" id="tipoPessoa" name="tipoPessoa">
+                    <option value="pessoaFisica">Pessoa Física</option>
+                    <option value="pessoaJuridica">Pessoa Jurídica</option>
+                </select>
+            </div>
 
-        <!-- Dados Pessoais -->
-        <h3>Dados Pessoais</h3>
+            <!-- Dados Pessoais -->
+            <h3>Dados Pessoais</h3>
 
-        <div class="form-group">
-            <label for="cpf">CPF:</label>
-            <input type="text" class="form-control" id="cpf" name="cpf" required>
-        </div>
+            <div class="form-group">
+                <label for="cpf">CPF:</label>
+                <input type="text" class="form-control" id="cpf" name="cpf" required>
+            </div>
 
-        <div class="form-group">
-            <label for="nome">Nome:</label>
-            <input type="text" class="form-control" id="nome" name="nome" required>
-        </div>
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" class="form-control" id="nome" name="nome" required>
+            </div>
 
-        <div class="form-group">
-            <label for="email">E-mail:</label>
-            <input type="email" class="form-control" id="email" name="email" required>
-        </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
 
-        <div class="form-group">
-            <label for="telefone">Telefone:</label>
-            <input type="text" class="form-control" id="telefone" name="telefone">
-        </div>
+            <div class="form-group">
+                <label for="telefone">Telefone:</label>
+                <input type="text" class="form-control" id="telefone" name="telefone">
+            </div>
 
-        <div class="form-group">
-            <label for="sexo">Sexo:</label>
-            <select class="form-control" id="sexo" name="sexo">
-                <option value="masculino">Masculino</option>
-                <option value="feminino">Feminino</option>
-                <option value="outro">Outro</option>
-            </select>
-        </div>
+            <div class="form-group">
+                <label for="sexo">Sexo:</label>
+                <select class="form-control" id="sexo" name="sexo">
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="outro">Outro</option>
+                </select>
+            </div>
 
-        <div class="form-group">
-            <label for="nascimento">Data de Nascimento:</label>
-            <input type="date" class="form-control" id="nascimento" name="nascimento" required>
-        </div>
+            <div class="form-group">
+                <label for="nascimento">Data de Nascimento:</label>
+                <input type="date" class="form-control" id="nascimento" name="nascimento" required>
+            </div>
 
-        <div class="form-group">
-            <label for="naturalidadeUF">Naturalidade (UF):</label>
-            <input type="text" class="form-control" id="naturalidadeUF" name="naturalidadeUF">
-        </div>
+            <div class="form-group">
+                <label for="naturalidadeUF">Naturalidade (UF):</label>
+                <input type="text" class="form-control" id="naturalidadeUF" name="naturalidadeUF">
+            </div>
 
-        <div class="form-group">
-            <label for="naturalidadeCidade">Naturalidade (Cidade):</label>
-            <input type="text" class="form-control" id="naturalidadeCidade" name="naturalidadeCidade">
-        </div>
+            <div class="form-group">
+                <label for="naturalidadeCidade">Naturalidade (Cidade):</label>
+                <input type="text" class="form-control" id="naturalidadeCidade" name="naturalidadeCidade">
+            </div>
 
-        <div class="form-group">
-            <label for="estadoCivil">Estado Civil:</label>
-            <select class="form-control" id="estadoCivil" name="estadoCivil">
-                <option value="solteiro">Solteiro(a)</option>
-                <option value="casado">Casado(a)</option>
-                <option value="divorciado">Divorciado(a)</option>
-                <option value="viuvo">Viúvo(a)</option>
-                <option value="outro">Outro</option>
-            </select>
-        </div>
+            <div class="form-group">
+                <label for="estadoCivil">Estado Civil:</label>
+                <select class="form-control" id="estadoCivil" name="estadoCivil">
+                    <option value="solteiro">Solteiro(a)</option>
+                    <option value="casado">Casado(a)</option>
+                    <option value="divorciado">Divorciado(a)</option>
+                    <option value="viuvo">Viúvo(a)</option>
+                    <option value="outro">Outro</option>
+                </select>
+            </div>
 
-        <div class="form-group">
-            <label for="possuiCNH">Possui CNH:</label>
-            <input type="radio" id="possuiCNH" name="possuiCNH" value="sim"> Sim
-            <input type="radio" id="possuiCNH" name="possuiCNH" value="nao"> Não
-        </div>
+            <div class="form-group">
+                <label for="possuiCNH">Possui CNH:</label>
+                <input type="radio" id="possuiCNH" name="possuiCNH" value="sim"> Sim
+                <input type="radio" id="possuiCNH" name="possuiCNH" value="nao"> Não
+            </div>
 
-        <div class="form-group">
-            <label for="nomeMae">Nome da Mãe:</label>
-            <input type="text" class="form-control" id="nomeMae" name="nomeMae">
-        </div>
+            <div class="form-group">
+                <label for="nomeMae">Nome da Mãe:</label>
+                <input type="text" class="form-control" id="nomeMae" name="nomeMae">
+            </div>
 
-        <div class="form-group">
-            <label for="nomePai">Nome do Pai:</label>
-            <input type="text" class="form-control" id="nomePai" name="nomePai">
-        </div>
+            <div class="form-group">
+                <label for="nomePai">Nome do Pai:</label>
+                <input type="text" class="form-control" id="nomePai" name="nomePai">
+            </div>
 
-        <div class="form-group">
-            <label for="rg">RG:</label>
-            <input type="text" class="form-control" id="rg" name="rg">
-        </div>
+            <div class="form-group">
+                <label for="rg">RG:</label>
+                <input type="text" class="form-control" id="rg" name="rg">
+            </div>
 
-        <div class="form-group">
-            <label for="dataEmissao">Data de Emissão:</label>
-            <input type="date" class="form-control" id="dataEmissao" name="dataEmissao">
-        </div>
+            <div class="form-group">
+                <label for="dataEmissao">Data de Emissão:</label>
+                <input type="date" class="form-control" id="dataEmissao" name="dataEmissao">
+            </div>
 
-        <div class="form-group">
-            <label for="orgaoExpedidor">Órgão Expedidor:</label>
-            <input type="text" class="form-control" id="orgaoExpedidor" name="orgaoExpedidor">
-        </div>
+            <div class="form-group">
+                <label for="orgaoExpedidor">Órgão Expedidor:</label>
+                <input type="text" class="form-control" id="orgaoExpedidor" name="orgaoExpedidor">
+            </div>
 
-        <div class="form-group">
-            <label for="ufExpedidor">UF do Órgão Expedidor:</label>
-            <input type="text" class="form-control" id="ufExpedidor" name="ufExpedidor">
-        </div>
+            <div class="form-group">
+                <label for="ufExpedidor">UF do Órgão Expedidor:</label>
+                <input type="text" class="form-control" id="ufExpedidor" name="ufExpedidor">
+            </div>
 
-        <!-- Referência Pessoal -->
-        <h3>Referência Pessoal</h3>
+            <!-- Referência Pessoal -->
+            <h3>Referência Pessoal</h3>
 
-        <div class="form-group">
-            <label for="nomeReferencia">Nome Completo:</label>
-            <input type="text" class="form-control" id="nomeReferencia" name="nomeReferencia">
-        </div>
+            <div class="form-group">
+                <label for="nomeReferencia">Nome Completo:</label>
+                <input type="text" class="form-control" id="nomeReferencia" name="nomeReferencia">
+            </div>
 
-        <div class="form-group">
-            <label for="telefoneReferenciaPrincipal">Telefone Principal:</label>
-            <input type="text" class="form-control" id="telefoneReferenciaPrincipal" name="telefoneReferenciaPrincipal">
-        </div>
+            <div class="form-group">
+                <label for="telefoneReferenciaPrincipal">Telefone Principal:</label>
+                <input type="text" class="form-control" id="telefoneReferenciaPrincipal"
+                    name="telefoneReferenciaPrincipal">
+            </div>
 
-        <div class="form-group">
-            <label for="telefoneReferenciaAdicional">Telefone Adicional:</label>
-            <input type="text" class="form-control" id="telefoneReferenciaAdicional" name="telefoneReferenciaAdicional">
-        </div>
+            <div class="form-group">
+                <label for="telefoneReferenciaAdicional">Telefone Adicional:</label>
+                <input type="text" class="form-control" id="telefoneReferenciaAdicional"
+                    name="telefoneReferenciaAdicional">
+            </div>
 
-        <!-- Endereço Residencial -->
-        <h3>Endereço Residencial</h3>
+            <!-- Endereço Residencial -->
+            <h3>Endereço Residencial</h3>
 
-        <div class="form-group">
-            <label for="cepResidencial">CEP:</label>
-            <input type="text" class="form-control" id="cepResidencial" name="cepResidencial">
-        </div>
+            <div class="form-group">
+                <label for="cepResidencial">CEP:</label>
+                <input type="text" class="form-control" id="cepResidencial" name="cepResidencial">
+            </div>
 
-        <div class="form-group">
-            <label for="enderecoResidencial">Endereço:</label>
-            <input type="text" class="form-control" id="enderecoResidencial" name="enderecoResidencial">
-        </div>
+            <div class="form-group">
+                <label for="enderecoResidencial">Endereço:</label>
+                <input type="text" class="form-control" id="enderecoResidencial" name="enderecoResidencial">
+            </div>
 
-        <div class="form-group">
-            <label for="numeroResidencial">Número:</label>
-            <input type="text" class="form-control" id="numeroResidencial" name="numeroResidencial">
-        </div>
+            <div class="form-group">
+                <label for="numeroResidencial">Número:</label>
+                <input type="text" class="form-control" id="numeroResidencial" name="numeroResidencial">
+            </div>
 
-        <div class="form-group">
-            <label for="complementoResidencial">Complemento:</label>
-            <input type="text" class="form-control" id="complementoResidencial" name="complementoResidencial">
-        </div>
+            <div class="form-group">
+                <label for="complementoResidencial">Complemento:</label>
+                <input type="text" class="form-control" id="complementoResidencial" name="complementoResidencial">
+            </div>
 
-        <div class="form-group">
-            <label for="bairroResidencial">Bairro:</label>
-            <input type="text" class="form-control" id="bairroResidencial" name="bairroResidencial">
-        </div>
+            <div class="form-group">
+                <label for="bairroResidencial">Bairro:</label>
+                <input type="text" class="form-control" id="bairroResidencial" name="bairroResidencial">
+            </div>
 
-        <div class="form-group">
-            <label for="estadoResidencial">Estado:</label>
-            <input type="text" class="form-control" id="estadoResidencial" name="estadoResidencial">
-        </div>
+            <div class="form-group">
+                <label for="estadoResidencial">Estado:</label>
+                <input type="text" class="form-control" id="estadoResidencial" name="estadoResidencial">
+            </div>
 
-        <div class="form-group">
-            <label for="cidadeResidencial">Cidade:</label>
-            <input type="text" class="form-control" id="cidadeResidencial" name="cidadeResidencial">
-        </div>
+            <div class="form-group">
+                <label for="cidadeResidencial">Cidade:</label>
+                <input type="text" class="form-control" id="cidadeResidencial" name="cidadeResidencial">
+            </div>
 
-        <div class="form-group">
-            <label for="tempoResidencia">Tempo de Residência:</label>
-            <input type="text" class="form-control" id="tempoResidencia" name="tempoResidencia">
-        </div>
+            <div class="form-group">
+                <label for="tempoResidencia">Tempo de Residência:</label>
+                <input type="text" class="form-control" id="tempoResidencia" name="tempoResidencia">
+            </div>
 
-        <!-- Dados Profissionais -->
-        <h3>Dados Profissionais</h3>
+            <!-- Dados Profissionais -->
+            <h3>Dados Profissionais</h3>
 
-        <div class="form-group">
-            <label for="tipoProfissao">Tipo de Profissão:</label>
-            <select class="form-control" id="tipoProfissao" name="tipoProfissao">
-                <option value="assalariado">Assalariado</option>
-                <option value="autonomo">Autônomo</option>
-                <option value="empreendedor">Empreendedor</option>
-                <option value="outro">Outro</option>
-            </select>
-        </div>
+            <div class="form-group">
+                <label for="tipoProfissao">Tipo de Profissão:</label>
+                <select class="form-control" id="tipoProfissao" name="tipoProfissao">
+                    <option value="assalariado">Assalariado</option>
+                    <option value="autonomo">Autônomo</option>
+                    <option value="empreendedor">Empreendedor</option>
+                    <option value="outro">Outro</option>
+                </select>
+            </div>
 
-        <div class="form-group">
-            <label for="cargoFuncao">Cargo/Função:</label>
-            <input type="text" class="form-control" id="cargoFuncao" name="cargoFuncao">
-        </div>
+            <div class="form-group">
+                <label for="cargoFuncao">Cargo/Função:</label>
+                <input type="text" class="form-control" id="cargoFuncao" name="cargoFuncao">
+            </div>
 
-        <div class="form-group">
-            <label for="rendaMensal">Renda Mensal Bruta:</label>
-            <input type="text" class="form-control" id="rendaMensal" name="rendaMensal">
-        </div>
+            <div class="form-group">
+                <label for="rendaMensal">Renda Mensal Bruta:</label>
+                <input type="text" class="form-control" id="rendaMensal" name="rendaMensal">
+            </div>
 
-        <div class="form-group">
-            <label for="tempoTrabalho">Tempo de Trabalho:</label>
-            <input type="text" class="form-control" id="tempoTrabalho" name="tempoTrabalho">
-        </div>
+            <div class="form-group">
+                <label for="tempoTrabalho">Tempo de Trabalho:</label>
+                <input type="text" class="form-control" id="tempoTrabalho" name="tempoTrabalho">
+            </div>
 
-        <div class="form-group">
-            <label for="telefoneProfissional">Telefone Profissional:</label>
-            <input type="text" class="form-control" id="telefoneProfissional" name="telefoneProfissional">
-        </div>
+            <div class="form-group">
+                <label for="telefoneProfissional">Telefone Profissional:</label>
+                <input type="text" class="form-control" id="telefoneProfissional" name="telefoneProfissional">
+            </div>
 
-        <div class="form-group">
-            <label for="nomeEmpresa">Nome da Empresa:</label>
-            <input type="text" class="form-control" id="nomeEmpresa" name="nomeEmpresa">
-        </div>
+            <div class="form-group">
+                <label for="nomeEmpresa">Nome da Empresa:</label>
+                <input type="text" class="form-control" id="nomeEmpresa" name="nomeEmpresa">
+            </div>
 
-        <div class="form-group">
-            <label for="cepProfissional">CEP:</label>
-            <input type="text" class="form-control" id="cepProfissional" name="cepProfissional">
-        </div>
+            <div class="form-group">
+                <label for="cepProfissional">CEP:</label>
+                <input type="text" class="form-control" id="cepProfissional" name="cepProfissional">
+            </div>
 
-        <div class="form-group">
-            <label for="enderecoProfissional">Endereço:</label>
-            <input type="text" class="form-control" id="enderecoProfissional" name="enderecoProfissional">
-        </div>
+            <div class="form-group">
+                <label for="enderecoProfissional">Endereço:</label>
+                <input type="text" class="form-control" id="enderecoProfissional" name="enderecoProfissional">
+            </div>
 
-        <div class="form-group">
-            <label for="numeroProfissional">Número:</label>
-            <input type="text" class="form-control" id="numeroProfissional" name="numeroProfissional">
-        </div>
+            <div class="form-group">
+                <label for="numeroProfissional">Número:</label>
+                <input type="text" class="form-control" id="numeroProfissional" name="numeroProfissional">
+            </div>
 
-        <div class="form-group">
-            <label for="complementoProfissional">Complemento:</label>
-            <input type="text" class="form-control" id="complementoProfissional" name="complementoProfissional">
-        </div>
+            <div class="form-group">
+                <label for="complementoProfissional">Complemento:</label>
+                <input type="text" class="form-control" id="complementoProfissional" name="complementoProfissional">
+            </div>
 
-        <div class="form-group">
-            <label for="bairroProfissional">Bairro:</label>
-            <input type="text" class="form-control" id="bairroProfissional" name="bairroProfissional">
-        </div>
+            <div class="form-group">
+                <label for="bairroProfissional">Bairro:</label>
+                <input type="text" class="form-control" id="bairroProfissional" name="bairroProfissional">
+            </div>
 
-        <div class="form-group">
-            <label for="estadoProfissional">Estado:</label>
-            <input type="text" class="form-control" id="estadoProfissional" name="estadoProfissional">
-        </div>
+            <div class="form-group">
+                <label for="estadoProfissional">Estado:</label>
+                <input type="text" class="form-control" id="estadoProfissional" name="estadoProfissional">
+            </div>
 
-        <div class="form-group">
-            <label for="cidadeProfissional">Cidade:</label>
-            <input type="text" class="form-control" id="cidadeProfissional" name="cidadeProfissional">
-        </div>
+            <div class="form-group">
+                <label for="cidadeProfissional">Cidade:</label>
+                <input type="text" class="form-control" id="cidadeProfissional" name="cidadeProfissional">
+            </div>
 
-        <button type="submit" class="btn btn-primary">Enviar</button>
-    </form>
-</div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
 
-<!-- Adicione os links para os arquivos JavaScript do Bootstrap (opcional) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Adicione os links para os arquivos JavaScript do Bootstrap (opcional) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
